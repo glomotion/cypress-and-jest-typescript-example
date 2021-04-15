@@ -2,3 +2,4 @@ node_modules
 src/*.js
 cypress/integration/*.js
 /cypress/fixtures/.DS_Store
+/cypress/videos
