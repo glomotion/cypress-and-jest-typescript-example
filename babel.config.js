@@ -1,12 +1,6 @@
 // babel.config.js
 module.exports = (api) => {
-  let plugins = [
-    // "@babel/plugin-proposal-optional-chaining",
-    // "@babel/plugin-syntax-dynamic-import",
-    // "@babel/plugin-proposal-class-properties",
-    "@babel/plugin-transform-runtime",
-    "lodash",
-  ];
+  let plugins = ["@babel/plugin-transform-runtime", "lodash"];
 
   if (api.env() === "production") {
     plugins = [...plugins];
@@ -15,7 +9,7 @@ module.exports = (api) => {
   return {
     presets: [
       [
-        // "@babel/preset-react",
+        "@babel/preset-react",
         {
           // pragma: 'dom', // default pragma is React.createElement (only in classic runtime)
           // pragmaFrag: 'DomFrag', // default is React.Fragment (only in classic runtime)
