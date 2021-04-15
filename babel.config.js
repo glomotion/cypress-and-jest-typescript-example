@@ -8,6 +8,10 @@ module.exports = (api) => {
     "lodash",
   ];
 
+  if (api.env() === "production") {
+    plugins = [...plugins];
+  }
+
   return {
     presets: [
       [
@@ -21,7 +25,7 @@ module.exports = (api) => {
         },
       ],
       "@babel/preset-env",
-      "@babel/preset-typescript",
+      // "@babel/preset-typescript",
     ],
     plugins,
   };
