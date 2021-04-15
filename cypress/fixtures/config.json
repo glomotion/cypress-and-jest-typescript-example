@@ -1,0 +1,11 @@
+{
+  "API_URL": "https://api.dev.x.immutable.com",
+  "API_VERSION": "v1",
+  "LINK_URL": "https://link.dev.x.immutable.com",
+  "GU_CONTRACT": "0x2ca7e3fa937cae708c32bc2713c20740f3c4fc3b",
+  "BALANCE_POLL_INTERVAL": 3000,
+  "LD_CLIENT_ID": "6052b82bbe4a220e0be6268a",
+  "flags": {
+    "imx1706_enableMarketplaceFiltering": true
+  }
+}
