@@ -25,7 +25,7 @@ module.exports = (api) => {
         },
       ],
       "@babel/preset-env",
-      // "@babel/preset-typescript",
+      "@babel/preset-typescript",
     ],
     plugins,
   };

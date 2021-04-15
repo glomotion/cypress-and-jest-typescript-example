@@ -11,7 +11,7 @@ describe("<BrowsePage />", () => {
     cy.wrap(true).should("be.true");
   });
 
-  it("demo test", () => {
+  it("sum import test", () => {
     cy.wrap(sum(1, 2)).should("eq", 3);
   });
 });
